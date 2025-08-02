@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>German Lesson</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bitcount+Single:wght@100..900&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+  <header>
+    <h1>German</h1>
+  </header>
+
+  <main>
+    <section class="lesson-container">
+      <h2>Lesson 1</h2>
+      <div class="lesson-box">
+        <!-- Inside top-bar -->
+        <div class="top-bar">
+          <p class="xp" id="xp-display">XP: 0</p>
+          <div class="heart-container" id="hearts">
+            <span class="heart">&#10084;</span>
+            <span class="heart">&#10084;</span>
+            <span class="heart">&#10084;</span>
+            <span class="heart">&#10084;</span>
+            <span class="heart">&#10084;</span>
+          </div>
+        </div>
+
+
+        <div class="question-section">
+          <p class="instruction" id="instruction">Select the correct translation</p>
+          <p class="question" id="question-text">Q1. Eight</p>
+
+          <div class="option-container">
+            <button class="option" onclick="checkAnswer(this)" id="opt1">null</button>
+            <button class="option" onclick="checkAnswer(this)" id="opt2">neun</button>
+            <button class="option" onclick="checkAnswer(this)" id="opt3">acht</button>
+            <button class="option" onclick="checkAnswer(this)" id="opt4">eins</button>
+          </div>
+        </div>
+        <div class="next">
+        <button onclick="nextQuestion()" id="next-btn">Next</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>#bitBybit</footer>
+  <script src="./index.js"></script>
+</body>
+
+</html>
