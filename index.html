@@ -1,36 +1,48 @@
-<!--Home Page -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Document</title>
-    <link rel="icon" href="Logo.png" type="image/x-icon">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="style.css" />
+  <title>LinguaQuest</title>
+  <link rel="icon" href="Logo.png" type="image/x-icon" />
 </head>
 <body>
-    <header>
-        <div style="display: inline-block;">
-        <img src="new-removebg-preview.png" alt="Image" style="vertical-align: middle; width: 100px;">
-        </div>
-    <div style="display: inline-block; vertical-align: middle;">
-    <h1>LinguaQuest</h1>
+  <header>
+    <div class="header-left">
+      <img src="new-removebg-preview.png" alt="Logo" class="logo" />
+      <h1>LinguaQuest</h1>
     </div>
 
-    <div class="nav">
-        <h3>Home</h3>
-        <h3>About</h3>
-        <h3>Contact</h3>
-    </div>
-        
-    </header>
-    
+    <!-- Hamburger icon -->
+    <button class="menu-toggle" aria-label="Toggle Menu">
+      ☰
+    </button>
+
+    <nav class="nav">
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">Contact Us</a>
+    </nav>
+  </header>
+
+  <main>
     <h2>LinguaQuest</h2>
-    <i><h3>A galaxy of languages at your fingertips</h3></i>
-
+    <h3><i>A galaxy of languages at your fingertips</i></h3>
     <div class="buttonStart">
-        <b><button>Get Started</button></b>
+      <button>Get Started</button>
     </div>
-    
+  </main>
+
+  <script>
+    const toggle = document.querySelector('.menu-toggle');
+    const nav = document.querySelector('.nav');
+
+    toggle.addEventListener('click', () => {
+      nav.classList.toggle('nav-open');
+    });
+  </script>
+
+  
 </body>
 </html>
