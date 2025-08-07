@@ -37,12 +37,12 @@ LinguaQuest is an accessible, engaging, and gamified website designed to help us
 
 ### Screenshots  
 
-![Homepage](screenshots/home.png)  
-![Select Language](screenshots/select-language.png)  
-![Lesson](screenshots/lesson.png)  
-![Questions](screenshots/lesson.png)  
-![About Us](screenshots/about.png)  
-![Contact Us](screenshots/contact.png)
+![Homepage](Screenshots/Homepage.jpg)  
+![Select_Language](Screenshots/select language page.jpg)  
+![Lesson](Screenshots/select lesson page.jpg)  
+![Questions](Screenshots/Questions.png)  
+![About_Us](Screenshots/About us page.jpg)  
+![Contact_Us](Screenshots/Contact us page.jpg)
 
 
 
