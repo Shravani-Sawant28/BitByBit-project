@@ -43,7 +43,9 @@ LinguaQuest is an accessible, engaging, and gamified website designed to  help u
 <br>
   ## 🖼️ Media Credits
 - Background images: AI generated
+  
 - Astronauts: [Shutterstock](https://www.shutterstock.com/search/astronaut-cute-vector?dd_referrer=https%3A%2F%2Fwww.google.com%2F)
+  
 - Audio clips: [voicemaker](https://voicemaker.in/)
 <br>
 ## 👥 Team
