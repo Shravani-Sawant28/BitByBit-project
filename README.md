@@ -33,7 +33,6 @@ LinguaQuest is an accessible, engaging, and gamified website designed to help us
 
 
 ## 📽️ Demo  
-[▶️ Watch the demo video](https://link-to-your-demo.com)  
 
 ### Screenshots  
 
