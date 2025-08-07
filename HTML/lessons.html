@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="../CSS/lstyle.css" />
+  <title>Lessons</title>
+  <link rel="icon" href="../Images/Logo.png" type="image/x-icon" />
+</head>
+<body>
+
+  <header>
+    <div class="header-left">
+      <img src="../Images/Logo Page.png" alt="Logo" class="logo" />
+      <h1>LinguaQuest</h1>
+    </div>
+
+    <!-- Hamburger Icon -->
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle Menu">☰</button>
+
+    <nav class="nav" id="navLinks">
+      <a href="./index.html">Home</a>
+      <a href="./about.html">About</a>
+      <a href="./contact.html">Contact Us</a>
+    </nav>
+  </header>
+
+  <main class="outer-box">
+    <div class="box">
+      <img src="../Images/german flag.jpg" alt="German flag" />
+      <p>German</p>
+      <a href="./select_lesson.html"><button class="start">Start</button></a>
+    </div>
+    <div class="box">
+      <img src="../Images/Indian flag.jpg" alt="Indian flag" />
+      <p>Marathi</p>
+      <button class="start">Start</button>
+    </div>
+    <div class="box">
+      <img src="../Images/fench flag.jpg" alt="French flag" />
+      <p>French</p>
+      <button class="start">Start</button>
+    </div>
+  </main>
+
+  <div class="astro">
+    <img src="../Images/Astro.png" alt="Astronaut" />
+  </div>
+
+  <!-- JavaScript to toggle mobile menu -->
+  <script>
+    const toggle = document.getElementById('menuToggle');
+    const nav = document.getElementById('navLinks');
+
+    toggle.addEventListener('click', () => {
+      nav.classList.toggle('nav-open');
+    });
+  </script>
+</body>
+</html>

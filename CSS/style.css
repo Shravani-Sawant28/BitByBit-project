@@ -2,7 +2,7 @@
 body {
   margin: 0;
   padding: 0;
-  background-image: url('Back2.jpg');
+  background-image: url('../Images/Back2.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -76,6 +76,10 @@ h3 {
   margin-top: 10px;
 }
 
+a{
+  text-decoration: none;
+  color: antiquewhite;
+}
 /* Button section */
 .buttonStart {
   margin-top: 30px;

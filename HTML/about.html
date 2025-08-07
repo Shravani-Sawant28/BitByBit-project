@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/lstyle.css">
+    <title>About</title>
+    <link rel="icon" href="../Images/Logo.png" type="image/x-icon" />
+</head>
+<body>
+    <header>
+  <div class="header-left">
+    <img src="../Images/Logo Page.png" alt="Logo" class="logo" />
+    <h1>LinguaQuest</h1>
+  </div>
+
+  <!-- Fix: Added id -->
+  <button class="menu-toggle" id="menuToggle" aria-label="Toggle Menu">
+    ☰
+  </button>
+
+  <!-- Fix: Added id -->
+  <nav class="nav" id="navLinks">
+    <a href="./index.html">Home</a>
+    <a href="./about.html">About</a>
+    <a href="./contact.html">Contact Us</a>
+  </nav>
+</header>
+
+
+  <main>
+    <h1 class="heading">About Us</h1>
+    <p class="about">
+      LinguaQuest is an accessible, space-themed language learning web app designed to make picking up a new language fun and interactive.
+    Login-free access to lessons available in multiple languages, engaging exercises like multiple-choice, fill-in-the-blanks, and matching.
+    Instant feedback with audio and visuals, a gamification system that rewards XP and deducts hearts.
+    Enjoy a smooth, responsive learning experience across all devices.
+    </p>
+  </main>
+
+    <div class="astro">
+    <img src="../Images/Astro.png" alt="Astronaut" />
+  </div>
+
+   <script>
+    const toggle = document.getElementById('menuToggle');
+    const nav = document.getElementById('navLinks');
+
+    toggle.addEventListener('click', () => {
+      nav.classList.toggle('nav-open');
+    });
+  </script>
+</body>
+</html>

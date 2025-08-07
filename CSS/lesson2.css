@@ -1,0 +1,180 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to top, #0d0d2b, #1a1a40);
+  color: antiquewhite;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+  background-image: url('../Images/background.jpg');
+}
+
+header {
+  text-align: center;
+  padding: 1rem;
+  font-size: 20px;
+  color: antiquewhite;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+}
+
+.lesson-container {
+  flex: 1;
+  padding: 2rem;
+  justify-content: center;
+  
+  margin: auto;
+  background-color: #1B1A55;
+  border-radius: 20px;
+  border: solid #070F2B;
+  text-align: center;
+}
+
+h1{
+  font-size: 50px;
+}
+
+.lesson-container h2{
+  font-size: 40px;
+  margin-top: 0;
+}
+
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+#xp-display{
+  color: greenyellow;
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+#hearts .heart {
+  font-size: 1.5rem;
+  color: red;
+  margin-left: 5px;
+}
+
+.option-container, .input-container, .match-container, .audio-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+button.option {
+    background-color: #0077ff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 8px;
+    width: 155px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button.option:hover {
+  background-color: #333366;
+}
+
+button.correct {
+  background-color: #00cc88 !important;
+}
+
+button.incorrect {
+  background-color: #cc0033 !important;
+}
+
+#next-btn {
+  margin-top: 2rem;
+  padding: 0.8rem 1.5rem;
+  background-color: #0055ff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+#next-btn:disabled {
+  background-color: gray;
+  cursor: not-allowed;
+}
+
+
+input.blank-input {
+  padding: 0.5rem;
+  font-size: 1rem;
+  width: 150px;
+  text-align: center;
+  border: 2px solid #00ffff;
+  border-radius: 5px;
+}
+
+.match-columns {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 1rem;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.draggable {
+  padding: 0.8rem 1.2rem;
+  background-color: #222244;
+  color: white;
+  border: 2px solid #00ffff;
+  border-radius: 8px;
+  cursor: grab;
+  text-align: center;
+}
+
+.droppable {
+  padding: 0.8rem 1.2rem;
+  background-color: #111122;
+  color: white;
+  border: 2px dashed #00ffff;
+  border-radius: 8px;
+  min-width: 120px;
+  text-align: center;
+}
+
+.correct-drop {
+  background-color: #00cc88 !important;
+  border: 2px solid #00cc88 !important;
+}
+
+.incorrect-drop {
+  background-color: #cc0033 !important;
+  border: 2px solid #cc0033 !important;
+}
+
+.back{
+  padding: 5px;
+  padding: 0.8rem 1.5rem;
+  background-color: #0055ff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+
+@media (max-width: 800px) {
+  
+  .lesson-container{
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}

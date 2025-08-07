@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LinguaQuest - German Lesson</title>
+  <link rel="icon" href="../Images/Logo.png" type="image/x-icon" />
+  <link rel="stylesheet" href="../CSS/lesson2.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <h1>LinguaQuest: German</h1>
+  </header>
+
+  <main>
+    <section class="lesson-container">
+      <h2>Lesson 2: Greetings</h2>
+
+      <div class="top-bar">
+        <p id="xp-display">XP: 0</p>
+        <div id="hearts">
+          <span class="heart">&#10084;</span>
+          <span class="heart">&#10084;</span>
+          <span class="heart">&#10084;</span>
+          <span class="heart">&#10084;</span>
+          <span class="heart">&#10084;</span>
+        </div>
+      </div>
+
+      <div class="question-box" id="question-box" style="text-align: left;">
+        <!-- Question will be loaded dynamically -->
+      </div>
+
+      <div class="option-container-grid" id="option-grid">
+        <!-- Options dynamically placed in 2x2 grid -->
+      </div>
+
+      <button id="next-btn" onclick="nextQuestion()" disabled>Next</button>
+    </section>
+  </main>
+
+  <footer>
+    <p>#bitBybit - Powered by LinguaQuest</p>
+  </footer>
+
+  <script src="../Javascript/lesson2.js"></script>
+</body>
+</html>
