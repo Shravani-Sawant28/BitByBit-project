@@ -1,35 +1,74 @@
-# 🌌 LinguaQuest – Gamified Language Learning Website
 
-**LinguaQuest** is a fully accessible, beginner-friendly language learning website designed with a fun, space-themed interface. Our mission is to make learning a new language engaging and interactive through games, instant feedback, and simple UI — all without requiring a login.
+
+
+  #  LinguaQuest  
+*A gamified language learning website with interactive lessons and instant feedback.*
+
+
+
+## 📚 Table of Contents
+- About
+- Features
+- Demo
+- Tech Stack
+- Media Credits
+- Team
+
+
+
+## 📖 About  
+LinguaQuest is an accessible, engaging, and gamified website designed to help users learn new languages through interactive lessons and audio-visual feedback. Built with frontend web technologies, it supports various question types like fill-in-the-blank, MCQs, drag-and-drop, and audio-based interactions.
+
+
 
 ## 🚀 Features
+- 👤 User-friendly interface with a beautiful theme  
+- 🎮 Gamified lessons with XP and heart system  
+- 🧩 Interactive exercises (FIB, MCQ, drag-and-drop, audio)  
+- 🔠 Case-insensitive answer matching (e.g., `drei` and `Drei` are both accepted)  
+- 🔊 Audio-based listening practice  
+- 📱 Responsive layout (desktop, tablet, mobile)  
+- 📝 Score tracking  
 
-- 🌍 **Multi-language Support**: Currently offers German lessons (expandable to more).
-- 🧠 **Interactive Lessons**: Includes multiple-choice, fill-in-the-blanks, and drag-and-drop exercises.
-- 🔊 **Audio & Visual Feedback**: Instant cues for correct/incorrect answers.
-- 🎮 **Gamification**: Users earn XP for correct answers and lose hearts for wrong ones.
-- 💻 **Responsive Design**: Fully optimized for desktop, tablet, and mobile users.
-- 🪐 **Space-Themed UI**: Visually appealing interface for a fun learning journey.
-- 📝 **Two Demo Lessons**: Try out real exercises without login barriers.
 
-## 📸 Preview
 
-> Add screenshots or a screen recording here to showcase your UI and features.
+## 📽️ Demo  
+[▶️ Watch the demo video](https://link-to-your-demo.com)  
 
-## 📁 Folder Structure
+### Screenshots  
 
-```plaintext
-LinguaQuest/
-│
-├── assets/
-│   ├── images/
-│   └── audio/
-├── css/
-│   └── style.css
-├── js/
-│   └── script.js
-├── lessons/
-│   ├── lesson1.html
-│   └── lesson2.html
-├── index.html
-└── about.html
+![Homepage](screenshots/home.png)  
+![Select Language](screenshots/select-language.png)  
+![Lesson](screenshots/lesson.png)  
+![Questions](screenshots/lesson.png)  
+![About Us](screenshots/about.png)  
+![Contact Us](screenshots/contact.png)
+
+
+
+## 🧰 Tech Stack
+- HTML  
+- CSS  
+- JavaScript  
+- GitHub  
+
+
+
+## 🖼️ Media Credits
+
+- Background images: AI generated  
+- Astronaut illustrations: [Shutterstock - Astronaut Cute Vectors](https://www.shutterstock.com/search/astronaut-cute-vector?dd_referrer=https%3A%2F%2Fwww.google.com%2F)  
+- Audio clips: [Voicemaker](https://voicemaker.in/)  
+- Fonts:
+  -  from [Google Fonts](https://fonts.google.com/) – Licensed under [SIL Open Font License](https://scripts.sil.org/OFL)
+
+
+
+
+## 👥 Team
+
+- **Saniya Bagwan**  
+- **Manasvi Gore**  
+- **Sanchita Patil**  
+- **Shravani Sawant**
+
