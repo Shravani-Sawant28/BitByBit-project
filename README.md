@@ -41,7 +41,7 @@ LinguaQuest is an accessible, engaging, and gamified website designed to help us
 ![Lesson](lesson.jpg)  
 ![Questions](Questions.png)  
 ![About_Us](About.jpg)  
-![Contact_Us](Contact.jpg)
+![Contact_Us](contact.jpg)
 
 
 
