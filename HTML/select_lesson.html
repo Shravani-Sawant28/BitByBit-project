@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Select Lesson</title>
     <link rel="icon" href="../Images/Logo.png" type="image/x-icon" />
+    <!-- <link rel="stylesheet1" href="../CSS/lstyle.css"> -->
     <link rel="stylesheet" href="../CSS/sl_style.css">
-    <link rel="stylesheet1" href="../CSS/lstyle.css">
   </head>
   <body>
      <header>
@@ -64,5 +64,15 @@
         </div>
       </div>
     </div>
+
+    <script>
+    const toggle = document.querySelector('.menu-toggle');
+    const nav = document.querySelector('.nav');
+
+    toggle.addEventListener('click', () => {
+      nav.classList.toggle('nav-open');
+    });
+  </script>
+
   </body>
 </html>
