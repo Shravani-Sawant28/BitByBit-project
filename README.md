@@ -1,5 +1,8 @@
-#Project Title - LinguaQuest Website
-*A gamified language learning website with interactive lessons and instant feedback.*
+##Project Title - LinguaQuest Website
+
+<br>
+
+#*A gamified language learning website with interactive lessons and instant feedback.*
 
 ## 📚 Table of Contents
 - [About](#about)
